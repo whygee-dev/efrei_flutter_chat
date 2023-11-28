@@ -1,0 +1,38 @@
+name: efrei_flutter_chat
+description: A new Flutter project.
+
+version: 1.0.0+1
+
+environment:
+  sdk: "3.2.1"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  animated_text_kit:
+  firebase_core: ^2.23.0
+  firebase_auth: ^4.14.1
+  cloud_firestore: ^4.13.2
+  modal_progress_hud_nsn: ^0.4.0
+  cupertino_icons: ^1.0.6
+  animated_snack_bar: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
