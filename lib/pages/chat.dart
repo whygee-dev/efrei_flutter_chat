@@ -108,7 +108,16 @@ class _ChatState extends State<Chat> {
                           messageText = value;
                         },
                         controller: chatMsgTextController,
-                        decoration: kMessageTextFieldDecoration,
+                        decoration: InputDecoration(
+                          contentPadding: EdgeInsets.symmetric(
+                            vertical: 10.0,
+                            horizontal: 20.0,
+                          ),
+                          hintText: 'Type your message here...',
+                          hintStyle:
+                              TextStyle(fontFamily: 'Poppins', fontSize: 14),
+                          border: InputBorder.none,
+                        ),
                       ),
                     ),
                   ),
